@@ -113,7 +113,7 @@ server.get('*', (req, res) => {
         });
     }
 });
-server.listen(Number(process.env.PORT) || 8040);
+server.listen(Number(process.env.PORT) || 8080);
 // let watchFilePath = "/root/repository/succulents.in.ua/refs/heads/master"
 // if (fs.existsSync(watchFilePath)) {
 //   fs.watchFile(watchFilePath, function (/*curr, prev*/) {
